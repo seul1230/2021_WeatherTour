@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewReciev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where is the best place to go?"
+        android:fontFamily="@font/rock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#03A9F4"
+        android:textSize="23dp" />
+    <TextView
+        android:id="@+id/textViewReciev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the time"
+        android:fontFamily="@font/rock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewReciev"
+        android:textColor="#7E57C2"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Select hour"
+        android:ems="10"
+        android:id="@+id/messageText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/messageText2"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Select date"
+        android:ems="10"
+        android:id="@+id/messageText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        />
+
+
+    <Button
+        android:id="@+id/buttonConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageText1"
+        android:layout_alignLeft="@+id/messageText1"
+        android:layout_marginTop="50dp"
+        android:text="Send" />
+
+    <Button
+        android:text="clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonClear"
+        android:layout_alignBaseline="@+id/buttonConnect"
+        android:layout_alignBottom="@+id/buttonConnect"
+        android:layout_alignRight="@+id/messageText1" />
+
+
+</RelativeLayout>
