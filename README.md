@@ -14,3 +14,6 @@ COVID 19로 인해 국내여행을 떠나려는 사람이 늘어나고 있습니
 ### 📱 앱 구현
 Android Studio와 python 이용한 Socket Programming<br/><br/>
 ![image](https://user-images.githubusercontent.com/86948867/182041916-bfdd6630-6b9c-4a88-b276-5e1fb104c325.png)
+<br/><br/>
+### 🏆 프로젝트 결과
+최우수상
